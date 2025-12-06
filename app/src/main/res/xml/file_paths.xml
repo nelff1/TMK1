@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Внешнее хранилище (корень SD-карты) -->
+    <external-path
+        name="external_storage_root"
+        path="." />
+
+    <!-- Директория Documents приложения -->
+    <external-files-path
+        name="external_documents"
+        path="Documents/" />
+
+    <!-- Директория Downloads приложения -->
+    <external-files-path
+        name="external_downloads"
+        path="Download/" />
+
+    <!-- Внутреннее хранилище приложения -->
+    <files-path
+        name="internal_storage"
+        path="." />
+
+    <!-- Внутренний кэш приложения -->
+    <cache-path
+        name="internal_cache"
+        path="." />
+
+    <!-- Внешний кэш приложения -->
+    <external-cache-path
+        name="external_cache"
+        path="." />
+
+    <!-- Для TMK директорий в общих Documents -->
+    <external-path
+        name="tmk_documents"
+        path="Documents/TMK_Documents/" />
+
+    <external-path
+        name="tmk_templates"
+        path="Documents/TMK_Templates/" />
+
+    <external-path
+        name="tmk_pdf"
+        path="Documents/TMK_PDF/" />
+
+    <!-- Для загрузки изображений (если нужно) -->
+    <external-files-path
+        name="images"
+        path="Pictures/TMK/" />
+
+    <!-- Для временных файлов -->
+    <external-cache-path
+        name="temp_files"
+        path="TMK_Temp/" />
+
+</paths>

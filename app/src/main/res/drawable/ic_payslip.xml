@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Контур листа -->
+    <path
+        android:pathData="M4,3h12l4,4v14a2,2 0 0 1 -2,2H4a2,2 0 0 1 -2,-2V5a2,2 0 0 1 2,-2z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#000000"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"/>
+
+    <!-- Верхняя заголовочная линия -->
+    <path
+        android:pathData="M7,9h10"
+        android:strokeColor="#000000"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"/>
+
+    <!-- Строки текста -->
+    <path
+        android:pathData="M7,12h10"
+        android:strokeColor="#000000"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"/>
+
+    <path
+        android:pathData="M7,15h10"
+        android:strokeColor="#000000"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"/>
+
+    <path
+        android:pathData="M7,18h7"
+        android:strokeColor="#000000"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"/>
+
+    <!-- Загнутый угол -->
+    <path
+        android:pathData="M16,3v4h4"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#000000"
+        android:strokeWidth="1.4"
+        android:strokeLineJoin="round"/>
+</vector>
